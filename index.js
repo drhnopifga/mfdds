@@ -11,7 +11,7 @@ bindEvents(bot);
 
 function bindEvents(bot) {
 
-    bot.on('kicked', function(reason) {
+    bot.on('kick', function(reason) {
       console.log("Kicked");
 
       bot = mineflayer.createBot(options);
